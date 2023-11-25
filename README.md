@@ -32,8 +32,8 @@ https://support.google.com/chromebook/answer/1080595
 # Enable: Sudo
 - sch: https://www.google.com/search?q=The+%22no+new+privileges%22+flag+is+set%2C+which+prevents+sudo+from+running+as+root.
 
-Discuss:
-Ver. 117.n Breaks dev_boot_usb !
+## Problem: Ver. 117.n Removed sudo!
+- https://github.com/dnschneid/crouton/discussions/5005
 - https://www.reddit.com/r/Crouton/comments/15aiy80/sudo_cant_enter_chroot_after_update_26_july_2023/
 - https://support.google.com/chromebook/thread/238102666/sudo-does-not-work
 
