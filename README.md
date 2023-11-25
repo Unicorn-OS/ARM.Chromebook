@@ -33,7 +33,14 @@ https://support.google.com/chromebook/answer/1080595
 - sch: https://www.google.com/search?q=The+%22no+new+privileges%22+flag+is+set%2C+which+prevents+sudo+from+running+as+root.
 
 ## Problem: Ver. 117.n Removed sudo!
+### Solution:
 - https://github.com/dnschneid/crouton/discussions/5005
-- https://www.reddit.com/r/Crouton/comments/15aiy80/sudo_cant_enter_chroot_after_update_26_july_2023/
+
+>Sudo commands will not succeed by default. If you want to use sudo commands, use the VT-2 shell (Ctrl-Alt-{F2/Right arrow/Refresh}) or build the image with the login_enable_crosh_sudo USE flag:
+>
+>`$ USE=login_enable_crosh_sudo emerge-$BOARD chromeos-login`
+>or
+>`$ USE=login_enable_crosh_sudo cros build-packages --board=$BOARD`
+  https://www.reddit.com/r/Crouton/comments/15aiy80/sudo_cant_enter_chroot_after_update_26_july_2023/
 - https://support.google.com/chromebook/thread/238102666/sudo-does-not-work
 
