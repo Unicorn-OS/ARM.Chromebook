@@ -28,5 +28,9 @@ https://support.google.com/chromebook/answer/1080595
 
 
 # Enable: Sudo
-- sch: https://support.google.com/chromebook/thread/238102666/sudo-does-not-work
-https://www.google.com/search?q=The+%22no+new+privileges%22+flag+is+set%2C+which+prevents+sudo+from+running+as+root.
+- sch: https://www.google.com/search?q=The+%22no+new+privileges%22+flag+is+set%2C+which+prevents+sudo+from+running+as+root.
+
+Discuss:
+- https://www.reddit.com/r/Crouton/comments/15aiy80/sudo_cant_enter_chroot_after_update_26_july_2023/
+- https://support.google.com/chromebook/thread/238102666/sudo-does-not-work
+
